@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .artical-wrap{
+        display: flex;
+        /* width: 960px; */
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .artical{
+        width: 300px;
+        margin: 10px;
+        font-size: 10px;
+        
+    }
+    .artical p{
+       
+       justify-content: space-between;
+       color: darkgray;
+       letter-spacing: 0.7px;
+    }
+    .artical img{
+        width: 100%;
+        border-radius: 10px;
+        height: 60%;
+
+    }
+    h2{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: #3B414F;
+        font-size: 28px;
+    }
+    .artical a {
+        font-size: 24px;
+        color: #3B414F;
+        text-decoration:none;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    .artical a:hover {
+       color: #EA3846;
+    }
+
+    .more-artical {
+        display: block;
+        background-color: #F53C4B;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 26px;
+        font-size: 18px;
+        border-radius: 6px;
+        
+        
+    }
+    .more-artical a{
+        text-decoration:none;
+        color: white;
+    }
+    .more-artical:hover{
+        background-color: #AA2E26;
+    }
+    
+    .nice-artical::after{
+        content: " ";
+        display: block;
+        width: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        height: 2px;
+        background-color: #EA3846;
+
+    }
+</style>
+<body>
+    
+<h2 class="nice-artical">精選文章</h2>
+<div class="artical-wrap">
+    <div class="artical">
+        <a href="https://5xruby.tw/posts/knowing-basic-css">
+            <img src="/hw2/knowing-basic-css.webp" alt="">
+            零基礎也能懂得 CSS - 概念篇
+        </a>
+        <p>By Keddie‧1月 27 2022‧技術文章</p>
+    </div>
+    <div class="artical">
+        <a href="https://5xruby.tw/posts/build-your-first-web">
+            <img src="/hw2/build-your-first-web.webp" alt="">
+            順利實作你的第一個網頁畫面
+        </a>
+        <p>By Keddie‧1月 27 2022‧技術文章</p>
+    </div>
+    <div class="artical">
+        <a href="https://5xruby.tw/posts/learning-web-development-1">
+            <img src="/hw2/T2u5xoZ.webp" alt="">
+            認識網頁開發從生活開始
+        </a>
+        <p>By Keddie‧12月 10 2021‧技術文章</p>
+    </div>
+</div>
+
+<div class="more-artical">
+    <a href="https://5xruby.tw/posts">更多文章</a>
+</div>
+
+
+
+
+</body>
+</html>
